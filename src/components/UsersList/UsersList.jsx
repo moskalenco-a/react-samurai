@@ -14,8 +14,7 @@ const UserItem = (props) => {
 }
 
 class UsersList extends React.Component {
-  constructor(props) {
-    super(props);
+  componentDidMount() {
     const baseUrl = `https://social-network.samuraijs.com/api/1.0`;
     const url = `${baseUrl}/users`;
     fetch(url)
@@ -29,6 +28,7 @@ class UsersList extends React.Component {
       <div>
         {users.map((user, index) => (
           <UserItem name={user.name}
+            key={index}
             location={user.location}
             status={user.status}
             followed={user.followed}
