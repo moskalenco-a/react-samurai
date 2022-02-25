@@ -4,9 +4,9 @@ import { postReducer } from "./postReducer";
 import { usersListReducer } from "./usersListReducer";
 
 const rootReducer = combineReducers({
-    posts: postReducer,
-    dialogsPage: dialogsReducer,
-    users: usersListReducer
+  posts: postReducer,
+  dialogsPage: dialogsReducer,
+  users: usersListReducer
 });
 
 const store = createStore(rootReducer);

@@ -1,41 +1,41 @@
 .dialogs {
-    display: grid;
-    grid-template-columns: 1fr 10fr;
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-gap: 10px;
 }
 
 .dialogsItems {
-    border: 2px solid #0ff;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: lightgreen;
+  border: 2px solid #0ff;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: lightgreen;
 }
 
 .message {
-    background-color: #fff;
-    color: #000;
-    border: 2px solid blue; 
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 14px;
-    max-width: 400px;
-    min-height: 40px;
-    position: relative;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+  max-width: 400px;
+  min-height: 40px;
+  position: relative;
 }
 
 .date {
-    position: absolute;
-    font-size: 10px;
-    bottom: 3px;
-    right: 5px;
+  position: absolute;
+  font-size: 10px;
+  bottom: 3px;
+  right: 5px;
 }
 
-.message + .message {
-    margin-top: 10px;
+.message+.message {
+  margin-top: 10px;
 }
 
 textarea {
-    margin-top: 10px;
-    min-width: 400px;
-    max-width: 400px;
+  margin-top: 10px;
+  min-width: 400px;
+  max-width: 400px;
 }

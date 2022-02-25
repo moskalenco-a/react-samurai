@@ -13,20 +13,20 @@ window.getState = store.getState;
 const App = (props) => {
   return (
     <Provider store={store}>
-    <BrowserRouter>
-      <div className="app-wrapper">
-        <Header />
-        <Navbar />
-        <div className="content-wrapper">
-          <Routes>
-            <Route path="/" element={<ProfileContainer />} />
-            <Route path="/profile" element={<ProfileContainer />} />
-            <Route path="/messages" element={<DialogsContainer />} />
-            <Route path="/users" element={<UsersListContainer />} />
-           </Routes>
+      <BrowserRouter>
+        <div className="app-wrapper">
+          <Header />
+          <Navbar />
+          <div className="content-wrapper">
+            <Routes>
+              <Route path="/" element={<ProfileContainer />} />
+              <Route path="/profile" element={<ProfileContainer />} />
+              <Route path="/messages" element={<DialogsContainer />} />
+              <Route path="/users" element={<UsersListContainer />} />
+            </Routes>
+          </div>
         </div>
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
     </Provider>
   );
 }

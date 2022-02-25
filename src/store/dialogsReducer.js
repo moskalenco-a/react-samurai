@@ -12,8 +12,8 @@ const dialogsReducer = (state = {}, action) => {
       };
     default:
       return {
-          chat: initialChatState,
-          dialogs: initialDialogsState
+        chat: initialChatState,
+        dialogs: initialDialogsState
       }
   }
 };

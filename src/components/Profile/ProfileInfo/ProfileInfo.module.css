@@ -1,19 +1,19 @@
 .avatar {
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-image: url('../../../all.png');
-    background-size: 100px 100px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url('../../../all.png');
+  background-size: 100px 100px;
 }
 
 .personal-info {
-    display: flex;
+  display: flex;
 }
 
 .info {
-    margin-left: 120px;
+  margin-left: 120px;
 }
 
-h1 + p {
-    margin-top: 20px;
+h1+p {
+  margin-top: 20px;
 }

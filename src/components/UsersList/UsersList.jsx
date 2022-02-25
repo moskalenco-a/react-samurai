@@ -7,7 +7,7 @@ const UserItem = (props) => {
       {/* <h2>Location: {props.location}</h2> */}
       <h2>{props.status}</h2>
       <h2 onClick={props.toggleFollowing}>
-        { props.followed ? "Unfollow" : "Follow" }
+        {props.followed ? "Unfollow" : "Follow"}
       </h2>
     </div>
   )
@@ -28,11 +28,11 @@ class UsersList extends React.Component {
     return (
       <div>
         {users.map((user, index) => (
-          <UserItem name={user.name} 
-                    location={user.location}
-                    status={user.status}
-                    followed={user.followed}
-                    toggleFollowing={() => this.props.toggleFollowing(index)} />
+          <UserItem name={user.name}
+            location={user.location}
+            status={user.status}
+            followed={user.followed}
+            toggleFollowing={() => this.props.toggleFollowing(index)} />
         ))}
       </div>
     );

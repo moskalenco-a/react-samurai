@@ -1,12 +1,12 @@
 header {
-    grid-area: header;
-    background-color: var(--background);
+  grid-area: header;
+  background-color: var(--background);
 }
 
 .logo {
-    margin-left: 20px;
-    height: 60px;
-    width: 60px;
-    background-size: 60px 60px;
-    background-image: url('../../all.png');
+  margin-left: 20px;
+  height: 60px;
+  width: 60px;
+  background-size: 60px 60px;
+  background-image: url('../../all.png');
 }
