@@ -1,0 +1,13 @@
+.item+.item {
+    margin-top: 20px;
+}
+
+.item>.date {
+    color: blue;
+    font-size: 12px;
+}
+
+.item {
+    font-size: 17px;
+    color: #000;
+}
